@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@font-face {
+  font-family: "PPNeueMontreal-Medium";
+  src: url("../Fonts/PPNeueMontreal-Medium.otf") format("opentype");
+}
+.font-neuemontreal-medium {
+  font-family: PPNeueMontreal-Medium;
+}
+
+@font-face {
+  font-family: "PPNeueMontreal-Book";
+  src: url("../Fonts/PPNeueMontreal-Book.otf") format("opentype");
+}
+.font-neuemontreal-book {
+  font-family: PPNeueMontreal-Book;
+}
+
+@font-face {
+  font-family: "PPNeueMontreal-Thin";
+  src: url("../Fonts/PPNeueMontreal-Thin.otf") format("opentype");
+}
+.font-neuemontreal-thin {
+  font-family: PPNeueMontreal-Thin;
+}
+
+@font-face {
+  font-family: "DentonTest-400";
+  src: url("../Fonts/Denton-Test-Regular-400.otf") format("opentype");
+}
+.font-dentontest-400 {
+  font-family: DentonTest-400;
+}
+
+@font-face {
+  font-family: "DentonTest-100";
+  src: url("../Fonts/Denton-Test-Thin-100.otf") format("opentype");
+}
+.font-dentontest-100 {
+  font-family: DentonTest-100;
+}
+
+@font-face {
+  font-family: "DentonCondensedTest";
+  src: url("../Fonts/DentonCondensedTest-ThinItalic.otf") format("opentype");
+}
+.font-dentoncondensedtest {
+  font-family: DentonCondensedTest;
+}
+
+@font-face {
+  font-family: "F37ZagmaMonoTrial-Book";
+  src: url("../Fonts/F37ZagmaMonoTrial-Book.otf") format("opentype");
+}
+.font-F37ZagmaMonoTrial-Book {
+  font-family: F37ZagmaMonoTrial-Book;
+}

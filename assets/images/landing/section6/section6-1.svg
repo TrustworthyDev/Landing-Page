@@ -1,0 +1,10 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<g opacity="0.6">
+		<circle opacity="0.3" cx="478.619" cy="465.619" r="295.869" stroke="white" stroke-width="1.5" />
+		<circle opacity="0.3" cx="454.5" cy="337.5" r="166.75" stroke="white" stroke-width="1.5" />
+		<rect opacity="0.6" x="118.75" y="118.75" width="562.5" height="562.5" stroke="white" stroke-width="1.5" />
+		<circle opacity="0.6" cx="400" cy="400" r="399.25" stroke="white" stroke-width="1.5" />
+		<circle opacity="0.3" cx="296.619" cy="296.619" r="295.869" transform="matrix(-1 0 0 1 622.238 32)" stroke="white" stroke-width="1.5" />
+		<circle opacity="0.6" cx="400" cy="400" r="399.25" transform="matrix(-1 0 0 1 800 0)" stroke="white" stroke-width="1.5" />
+	</g>
+</svg>
